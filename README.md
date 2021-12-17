@@ -1,7 +1,7 @@
 <div align="center">
 	<div style="margin-bottom:3%">
 		<a href="https://gabrielasertori.github.io/React-TaskList/">
-			<img src="imgs/banner.png" alt="exemple image"/>
+			<img src="./imgs/banner.png" alt="exemple image"/>
 		</a>
 	</div>
 	<div>
@@ -23,6 +23,8 @@
 # Task List
 
 Projeto em ReactJS, Typescript e SCSS de uma lista de tarefas.<br>
-Algumas funcionalidade:
+Algumas funcionalidades:
 - Adicionar novas tarefas
 - Deletar tarefas
+
+### Projeto de estudo desenvolvido com a Rocketseat
