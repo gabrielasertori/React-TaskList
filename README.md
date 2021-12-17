@@ -1,7 +1,7 @@
 <div align="center">
 	<div style="margin-bottom:3%">
 		<a href="https://gabrielasertori.github.io/React-TaskList/">
-			<img src="./img/banner.png" alt="exemple image"/>
+			<img src="img/banner.png" alt="exemple image"/>
 		</a>
 	</div>
 	<div>
