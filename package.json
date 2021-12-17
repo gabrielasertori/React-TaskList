@@ -1,12 +1,12 @@
 {
-  "homepage": "http://gabrielasertori.github.io/React-TaskList/",
+  "homepage": "http://gabrielasertori.github.io/React-TaskList",
   "name": "01-github-explorer",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist",
     "dev": "webpack",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"

@@ -1,7 +1,7 @@
 header.header {
   background: var(--blue);
   padding-top: 2rem;
-  
+
   > div {
     max-width: 1120px;
     margin: 0 auto;
@@ -11,5 +11,10 @@ header.header {
     display: flex;
     align-items: center;
     justify-content: center;
+
+	p {
+		color: #fff;
+		font-size: 1.5rem;
+	}
   }
 }

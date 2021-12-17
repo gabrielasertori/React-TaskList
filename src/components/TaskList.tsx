@@ -1,7 +1,5 @@
-import { useState } from 'react'
-
+import React, { useState } from 'react'
 import '../styles/tasklist.scss'
-
 import { FiTrash, FiCheckSquare } from 'react-icons/fi'
 
 interface Task {
@@ -14,8 +12,8 @@ export function TaskList() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTaskTitle, setNewTaskTitle] = useState('');
 
+  // Crie uma nova task com um id random, não permita criar caso o título seja vazio.
   function handleCreateNewTask() {
-    // Crie uma nova task com um id random, não permita criar caso o título seja vazio.
 	if (newTaskTitle)
 	{
 		setTasks(prevTask => [...prevTask, {
@@ -27,18 +25,23 @@ export function TaskList() {
 	}
   }
 
+  // Altere entre `true` ou `false` o campo `isComplete` de uma task com dado ID
   function handleToggleTaskCompletion(id: number) {
-    // Altere entre `true` ou `false` o campo `isComplete` de uma task com dado ID
 	let index = tasks.findIndex(task => task.id === id);
 	const newTasks = [...tasks];
 	newTasks[index].isComplete = !newTasks[index].isComplete;
 	setTasks(newTasks);
   }
 
+  // Remova uma task da listagem pelo ID
   function handleRemoveTask(id: number) {
-    // Remova uma task da listagem pelo ID
 	const newTasks = tasks.filter(task => task.id !== id)
 	setTasks(newTasks);
+  }
+
+  function handleKeyPress(e: React.KeyboardEvent) {
+	  if (e.key === 'Enter')
+	  	handleCreateNewTask();
   }
 
   return (
@@ -52,6 +55,7 @@ export function TaskList() {
             placeholder="Adicionar novo todo"
             onChange={(e) => setNewTaskTitle(e.target.value)}
             value={newTaskTitle}
+			onKeyPress={handleKeyPress}
           />
           <button type="submit" data-testid="add-task-button" onClick={handleCreateNewTask}>
             <FiCheckSquare size={16} color="#fff"/>
@@ -60,7 +64,7 @@ export function TaskList() {
       </header>
 
       <main>
-        <ul>
+		<ul>
           {tasks.map(task => (
             <li key={task.id}>
               <div className={task.isComplete ? 'completed' : ''} data-testid="task" >
