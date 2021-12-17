@@ -1,5 +1,3 @@
-![https://gabrielasertori.github.io/React-TaskList/](./img/banner.jpg)
-
 <div align="center">
 	<div style="margin-bottom:3%">
 		<a href="https://gabrielasertori.github.io/React-TaskList/">
