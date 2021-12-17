@@ -6,7 +6,7 @@
 	</div>
 	<div>
 		<img src="https://img.shields.io/badge/Javascript-yellow?style=for-the-badge" />
-		<img src="https://img.shields.io/badge/ReactJS-cyan?style=for-the-badge" />
+		<img src="https://img.shields.io/badge/ReactJS-deepskyblue?style=for-the-badge" />
 		<img src="https://img.shields.io/badge/Typescript-blue?style=for-the-badge" />
 		<img src="https://img.shields.io/badge/SCSS-magenta?style=for-the-badge" />
 	</div>
@@ -22,5 +22,7 @@
 
 # Task List
 
-This is the fifth project of école 42 projects.<br>
-This project is a very small 2D game. It is built to make you work with textures, sprites. And some very basic gameplay elements.
+Projeto em ReactJS, Typescript e SCSS de uma lista de tarefas.<br>
+Algumas funcionalidade:
+- Adicionar novas tarefas
+- Deletar tarefas
