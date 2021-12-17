@@ -6,16 +6,16 @@
 	</div>
 	<div>
 		<img src="https://img.shields.io/badge/Javascript-yellow?style=for-the-badge" />
-		<img src="https://img.shields.io/badge/framework-ReactJS-blue" />
-		<img src="https://img.shields.io/badge/superset-ReactJS-blue" />
-		<img src="https://img.shields.io/badge/version-1-blue" />
+		<img src="https://img.shields.io/badge/ReactJS-cyan?style=for-the-badge" />
+		<img src="https://img.shields.io/badge/Typescript-blue?style=for-the-badge" />
+		<img src="https://img.shields.io/badge/SCSS-magenta?style=for-the-badge" />
 	</div>
 	<div>
 		<a href="https://www.linkedin.com/in/gabriela-sertori-50b390189/">
-			<img alt="Gabriela linkedin" src="https://img.shields.io/badge/-gabisertori-blue?style=flat&logo=Linkedin&logoColor=white" />
+			<img alt="Gabriela linkedin" src="https://img.shields.io/badge/-gabisertori-blue?style=for-the-badge&logo=Linkedin&logoColor=white" />
 		</a>
 		<a href="https://github.com/gabrielasertori">
-			<img alt="Gabriela Sertori" src="https://img.shields.io/badge/-gabisertori-blue?style=flat&logo=github&logoColor=white" />
+			<img alt="Gabriela Sertori" src="https://img.shields.io/badge/-gabisertori-blue?style=for-the-badge&logo=github&logoColor=white" />
 		</a>
 	</div>
 </div>
