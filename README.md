@@ -5,7 +5,7 @@
 		</a>
 	</div>
 	<div>
-		<img src="https://img.shields.io/badge/language-Javascript-yellow?style=for-the-badge&logo=javascript" />
+		<img src="https://img.shields.io/badge/Javascript-yellow?style=for-the-badge" />
 		<img src="https://img.shields.io/badge/framework-ReactJS-blue" />
 		<img src="https://img.shields.io/badge/superset-ReactJS-blue" />
 		<img src="https://img.shields.io/badge/version-1-blue" />
