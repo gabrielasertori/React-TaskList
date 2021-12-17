@@ -1,9 +1,9 @@
-![https://gabrielasertori.github.io/React-TaskList/](img/banner.png)
+![https://gabrielasertori.github.io/React-TaskList/](./img/banner.jpg)
 
 <div align="center">
 	<div style="margin-bottom:3%">
 		<a href="https://gabrielasertori.github.io/React-TaskList/">
-			<img src="img/banner.png" alt="exemple image"/>
+			<img src="./img/banner.jpg" alt="exemple image"/>
 		</a>
 	</div>
 	<div>
